@@ -15,6 +15,46 @@ body {
   background-attachment: fixed;
 }
 
+@font-face {
+  font-family: "Inder";
+  src: url(../fonts/Inder/Inder-Regular.ttf);
+}
+@font-face {
+  font-family: "Inter";
+  src: url(../fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
+}
+@font-face {
+  font-family: "Jacques Francois";
+  src: url(../fonts/Jacques_Francois/JacquesFrancois-Regular.ttf);
+}
+@font-face {
+  font-family: "Jura";
+  src: url(../fonts/Jura/Jura-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: "K2D";
+  src: url(../fonts/K2D/K2D-Regular.ttf);
+}
+@font-face {
+  font-family: "Kaisei Opti";
+  src: url(../fonts/Kaisei_Opti/KaiseiOpti-Regular.ttf);
+}
+@font-face {
+  font-family: "Karma";
+  src: url(../fonts/Karma/Karma-Regular.ttf);
+}
+@font-face {
+  font-family: "Libre Bodoni";
+  src: url(../fonts/Libre_Bodoni/LibreBodoni-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: "Oswald";
+  src: url(../fonts/Oswald/Oswald-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: "Playfair Display";
+  src: url(../fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf);
+}
 header {
   height: auto;
   display: -webkit-box;
@@ -1222,143 +1262,120 @@ footer .hvr-underline-from-center:before {
   .about_us ul span {
     display: none;
   }
+  .designer ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "ko cy" "na to";
+  }
+  .developers ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "du" "db";
+    margin-left: 55px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .about_us li div {
+    margin-right: 20px;
+  }
+  .editors ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "ro st" "pa mo";
+  }
+  .developers_person_up {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+  }
+  .developers_person_bottom {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 80%;
+    margin-top: 30px;
+    margin: 0 auto;
+  }
+  .designer div p {
+    width: 90%;
+  }
+  .designer {
+    width: 100%;
+    margin-top: 96px;
+    margin-left: 39px;
+  }
+  .developers {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    width: 100%;
+  }
+  #savchin h2 {
+    margin-left: -15px;
+  }
+  #zoriy h2 {
+    margin-left: 10px;
+  }
+  #pytcko h2 {
+    margin-left: 10px;
+  }
+  #telemucha h2 {
+    margin-left: 4px;
+  }
+  #podolan h2 {
+    margin-left: -5px;
+  }
+  #gyschuk h2 {
+    margin-left: 19px;
+  }
+  #lenuk h2 {
+    margin-left: 22px;
+  }
+  .developers li {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: left;
+    width: 100%;
+  }
+  .developers li div p {
+    width: 90%;
+  }
+  .developers li h2 {
+    width: 100%;
+    margin-top: 26px;
+  }
+  .editors {
+    margin-top: 96px;
+    margin-left: 39px;
+  }
+  .editors div p {
+    width: 95%;
+  }
+  .about_us ul img {
+    width: 237px;
+    height: 299px;
+  }
+  .our_photo img {
+    width: 95%;
+    margin-left: 38px;
+    margin-top: 45px;
+    display: block;
+    padding-bottom: 50px;
+    padding-top: 100px;
+    margin: 0 auto;
+  }
 }
-.designer ul {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  grid-template-areas: "ko cy" "na to";
-}
-
-.developers ul {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  grid-template-areas: "du" "db";
-  margin-left: 55px;
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-}
-
-.about_us li div {
-  margin-right: 20px;
-}
-
-.editors ul {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  grid-template-areas: "ro st" "pa mo";
-}
-
-.developers_person_up {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
-}
-
-.developers_person_bottom {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 80%;
-  margin-top: 30px;
-  margin: 0 auto;
-}
-
-.designer div p {
-  width: 90%;
-}
-
-.designer {
-  width: 100%;
-  margin-top: 96px;
-  margin-left: 39px;
-}
-
-.developers {
-  margin-top: 100px;
-  margin-bottom: 50px;
-  width: 100%;
-}
-
-#savchin h2 {
-  margin-left: -15px;
-}
-
-#zoriy h2 {
-  margin-left: 10px;
-}
-
-#pytcko h2 {
-  margin-left: 10px;
-}
-
-#telemucha h2 {
-  margin-left: 4px;
-}
-
-#podolan h2 {
-  margin-left: -5px;
-}
-
-#gyschuk h2 {
-  margin-left: 19px;
-}
-
-#lenuk h2 {
-  margin-left: 22px;
-}
-
-.developers li {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  text-align: left;
-  width: 100%;
-}
-
-.developers li div p {
-  width: 90%;
-}
-
-.developers li h2 {
-  width: 100%;
-  margin-top: 26px;
-}
-
-.editors {
-  margin-top: 96px;
-  margin-left: 39px;
-}
-
-.editors div p {
-  width: 95%;
-}
-
-.about_us ul img {
-  width: 237px;
-  height: 299px;
-}
-
-.our_photo img {
-  width: 95%;
-  margin-left: 38px;
-  margin-top: 45px;
-  display: block;
-  padding-bottom: 50px;
-  padding-top: 100px;
-  margin: 0 auto;
-}
-
 @media screen and (min-width: 767px) and (max-width: 1023px) {
   .about_us {
     width: 95%;
